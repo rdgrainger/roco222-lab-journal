@@ -1,7 +1,7 @@
-#Lab session 1
-##Software engineering for roboticists
+# Lab session 1
+## Software engineering for roboticists
 
-###Step 1 - Write your first Markdown document
+### Step 1 - Write your first Markdown document
 
 The text below is our first attempt at using the markdown syntax.
 ROCO222
@@ -18,7 +18,7 @@ Introduction to Sensors and Actuators
   ..* Sublist of item 2
   3. Item 3
 
-###Step 2 - Command-line 101
+### Step 2 - Command-line 101
 
 opened the terminal amd tried a few commands
 
@@ -46,7 +46,7 @@ echo is a built in command that writes its arguments to standard form. This writ
 
 cat is short for concatenate. cat allows use to create single or multiple diles , view contents of a file, concatenate files and redirect the output in terminal or files. Using this command, the terminal ouput "Hello", thereby showing what we wrote in the markdown document.
 
-**cp hello.md hello-again.md*
+**cp hello.md hello-again.md**
 
 This copies the contents of hello.md into a new markdown named hello-again.md
 
@@ -66,5 +66,5 @@ is the same as rm -r -f the -r meaning "remove directories and their contents re
 
 This command lists characteristics of the computer's cpu, incluidng number of cores.
 
-###Step 6
+### Step 6
 For this module, we have used github to create a lab journal using the markdown syntax. We have learned the basics on git repositories, including the master branch and practised making additional branches. The text in these branches can be merged with the master branch. We have also begun to commit changes to a repository, adding a description on the updates made.

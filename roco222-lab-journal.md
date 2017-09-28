@@ -61,3 +61,6 @@ rm -rf the rm -rf is the same as rm -r -f the -r meaning "remove directories and
 cat /proc/cpuinfo
 
 This command lists characteristics of the computer's cpu, incluidng number of cores.
+
+Step 6
+For this module, we have used github to create a lab journal using the markdown syntax. We have learned the basics on git repositories, including the master branch and practised making additional branches. The text in these branches can be merged with the master branch. We have also begun to commit changes to a repository, adding a description on the updates made.

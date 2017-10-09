@@ -73,8 +73,39 @@ For this module, we have used github to create a lab journal using the markdown 
 
 The task asked us to interface with a robot using the Linux terminal and some python code. The first step was to connect to the robot itself (named chapman). I used 
 
-ping chapman.local 
-ssh nao@192.168.0.184
+*ping chapman.local*
+and then
+*ssh nao@192.168.0.184*
+I entered the required password and was now connected to the robot. The next step was to find a way to send it a message.
+
+I created a python file (named hack4.py) in the terminal and copied the code given:
+
+*from naoqi import ALProxy
+tts = ALProxy("ALTextToSpeech", "localhost", 9559)
+tts.say("I've hacked you, robot!")*
+
+Then I ran the executable hack4.py with:
+
+*nano hack4py*
+
+# Lab session 2
+## Build a DC Motor
+
+We have been tasked with building a DC motor, testing it and then creating a better iteration. The initial design included one coil of wire with 118 turns, copper tape as a commutator, a cork to function as a core and a suppport structure.
+
+### The original motor:
+
+
+
+
+### Improving the design
+
+There were a few ways to improve on this:
+
+1. Add more coils of wire.
+2. Change the material of the core
+3. Create a more stable commutator
+4. Create a sturdier base to hold the new design
 
 
 

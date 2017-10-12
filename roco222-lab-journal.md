@@ -98,14 +98,21 @@ We have been tasked with building a DC motor, testing it and then creating a bet
 
 
 
+One of the issues we had with this motor was the small size, only allowing for one coil. It was also difficult to wind around. The commutator was fragile and crumpled too much to use effectively.
+
 ### Improving the design
 
 There were a few ways to improve on this:
 
-1. Add more coils of wire.
+1. Add more coils of wire
 2. Change the material of the core
 3. Create a more stable commutator
 4. Create a sturdier base to hold the new design
+5. Use a larger core so more coils can be wound
 
 
+We decided to use 8 coils of wire, each with 100 turns. The commutator has 16 segments to accomodate this. The wire is coiled around an airbed pump.
+
+
+Calculations:
 

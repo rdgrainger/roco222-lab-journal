@@ -78,27 +78,34 @@ and then
 *ssh nao@192.168.0.184*
 I entered the required password and was now connected to the robot. The next step was to find a way to send it a message.
 
+'image link'
+
 I created a python file (named hack4.py) in the terminal and copied the code given:
 
 *from naoqi import ALProxy
 tts = ALProxy("ALTextToSpeech", "localhost", 9559)
 tts.say("I've hacked you, robot!")*
 
+'image link'
+
 Then I ran the executable hack4.py with:
 
 *nano hack4py*
 
+'image link'
+
 # Lab session 2
 ## Build a DC Motor
 
-We have been tasked with building a DC motor, testing it and then creating a better iteration. The initial design included one coil of wire with 118 turns, copper tape as a commutator, a cork to function as a core and a suppport structure.
+We have been tasked with building a DC motor, testing it and then creating a better iteration. The initial design included one coil of wire, copper tape as a commutator, a cork to function as a core and a suppport structure.
 
 ### The original motor:
 
+'image link'
 
+The basic motor is simply one coil of wire wound around a cork with a copper tape commutator. It is supported by a basic frame with two magnets either side. The coil has 118 turns of copper
 
-
-One of the issues we had with this motor was the small size, only allowing for one coil. It was also difficult to wind around. The commutator was fragile and crumpled too much to use effectively.
+One of the issues we had with this motor was the small size, only allowing for one coil. It was also difficult to wind around. The commutator was fragile and crumpled too much to use effectively. By adding more magnets and more coils we can increase the effectiveness of our motor.
 
 ### Improving the design
 
@@ -110,8 +117,17 @@ There were a few ways to improve on this:
 4. Create a sturdier base to hold the new design
 5. Use a larger core so more coils can be wound
 
+### First Iteration
 
-We decided to use 8 coils of wire, each with 100 turns. The commutator has 16 segments to accomodate this. The wire is coiled around an airbed pump.
+'image link'
+
+We decided to use 16 coils of wire, each with 100 turns. The commutator would have 32 segments to accomodate this. The wire is coiled around an airbed pump. Our intital idea was to have long but narrow loops from one edge of the shaft to the other. The commutator would comprise of 32 segments in a circle around the end of the shaft. Magnets are to be placed on a support structure wither side of the motor, and would be of a greater number than the original design.
+
+In practice, this motor would not spin. The major problem is the coils of wire- by making them so narrow there would not be a large enough air gap between. (More to add)
+
+### Second Iteration
+
+'image link'
 
 
 Calculations:
